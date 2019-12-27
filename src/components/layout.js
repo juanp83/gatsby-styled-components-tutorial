@@ -9,5 +9,6 @@ const GlobalStyle = createGlobalStyle`
 export default ({ children }) => (
   <React.Fragment>
     <GlobalStyle theme="purple" />
+    {children}
   </React.Fragment>
 )
